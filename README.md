@@ -1,4 +1,4 @@
-# 🚀 3D Portfolio — React + Three.js + GSAP
+# 🚀 Portfolio 
 
 A next-level, **3D immersive** portfolio that stands out from every other developer portfolio.
 

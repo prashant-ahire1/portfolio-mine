@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { DATA } from "../data";
 import ThreeScene from "./ThreeScene";
 
-const roles = ["Software Engineer", "Software Testing", "AI Enthusiast", "CS Student", "Open Source Contributor"];
+const roles = ["Software Engineer", "Software Testing", "AI Enthusiast", "CS Student" ];
 
 export default function Hero() {
   const [typed, setTyped] = useState("");
@@ -96,7 +96,7 @@ export default function Hero() {
           <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
             <span style={{ color: "rgba(232,234,240,0.2)", fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: 600 }}>Connect</span>
             <div style={{ height: 1, width: 28, background: "rgba(0,255,240,0.2)" }} />
-            {[{ l: "GitHub", h: DATA.github }, { l: "LinkedIn", h: DATA.linkedin }, { l: "Twitter", h: DATA.twitter }].map(({ l, h }) => (
+            {[{ l: "GitHub", h: DATA.github }, { l: "LinkedIn", h: DATA.linkedin }].map(({ l, h }) => (
               <a key={l} href={h} target="_blank" rel="noopener noreferrer"
                 style={{ color: "rgba(232,234,240,0.35)", fontSize: 13, fontWeight: 500, textDecoration: "none", transition: "color 0.2s, text-shadow 0.2s" }}
                 onMouseEnter={e => { e.target.style.color = "var(--neon)"; e.target.style.textShadow = "0 0 8px var(--neon)"; }}

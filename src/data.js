@@ -1,11 +1,9 @@
-// ============================================================
-//  ✏️  EDIT ALL YOUR PERSONAL DETAILS HERE
-// ============================================================
+
 export const DATA = {
   name: "Prashant Ahire",
   role: "Software Developer",
   tagline: "I build interfaces that feel alive.",
-  about: "CS student obsessed with crafting next-level web experiences. I bridge design & code — turning complex ideas into pixel-perfect, performant UIs. Currently seeking Job where I can ship real products and grow fast.",
+  about: "Aspiring Software Engineer with hands-on experience in Java, Spring Boot, React.js, Python, and SQL. Passionate about building efficient applications, solving real-world problems, and continuously learning new technologies. Currently seeking opportunities to contribute, learn, and grow in the software industry..",
   location: "Pune, India",
   degree: "Master of Computer Application(MCA)",
   college: "Alard University",
@@ -13,13 +11,13 @@ export const DATA = {
   email: "prashantahire021@gmail.com",
   github: "https://github.com/prashant-ahire1",
   linkedin: "https://linkedin.com/in/prashant-ahire-657pa",
-  resume: "/Prashant_Ahire_SoftwareDev_CV.pdf",
+  resume: "/Prashant_Ahire_Java_Dev_CV.pdf",
 
     skills: [
-    { category: "Frontend", items: ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"] },
-    { category: "Tools", items: ["Git & GitHub", "VS Code", "Intellij idea", "Postman"] },
-    { category: "Languages", items: [ "Java", "Spring boot", "Spring Security"] },
-    { category: "Familar", items: ["STLC", "Software Testing", "MySQL", "Cloud Computing", "Automation Testing", "Microservice"] },
+    { category: "Backend", items: [ "Java", "Spring Boot", "Spring Security", "Hibernate", "Rest APIs"] },
+    { category: "Frontend", items: ["React.js", "JavaScript", "HTML", "Tailwind CSS"] },
+    { category: "Tools", items: ["Git & GitHub", "VS Code", "Intellij idea", "Maven", "Postman", "Swagger"] },
+    { category: "Familar", items: ["STLC", "Software Testing", "MySQL", "Automation Testing", "Microservice", "AWS", "Docker"] }
   ],
 
 
@@ -30,7 +28,6 @@ export const DATA = {
       desc: "Full Stack Web application — Login functions, Browse Product, Add to Cart, Payment Gateway, User Profile, Order Details.",
       tech: ["React", "API", "Tailwind", "Java", "Spring Boot", "MySQL"],
       github: "https://github.com/prashant-ahire1/ClothesBZ-E-commerce",
-      // live: "https://your-weather.vercel.app",
       color: "#00fff0",
       featured: true,
     },
@@ -54,7 +51,7 @@ export const DATA = {
       title: "This Portfolio",
       desc: "3D immersive portfolio with particle system, glitch effects, custom cursor, and Three.js.",
       tech: ["React", "Three.js", "GSAP"],
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/prashant-ahire1/portfolio-mine",
       live: "#",
       color: "#00fff0",
       featured: false,
@@ -77,19 +74,19 @@ export const DATA = {
       type: "edu",
       desc: " DSA, Software Testing, OS, Software Engineering, Cloud Computing. CGPA: 8.23 / 10.",
     },
-    // {
-    //   title: "Frontend Developer Intern",
-    //   org: "Company Name",
-    //   period: "Month – Month Year",
-    //   type: "work",
-    //   desc: "Built and shipped UI components, improved responsiveness, fixed 20+ bugs. Add your real details here.",
-    // },
     {
-      title: "Open Source Contributor",
-      org: "GitHub Projects",
-      period: "2023 – Present",
-      type: "oss",
-      desc: "Contributed to 3+ open source projects — bug fixes, feature additions, documentation improvements.",
+      title: "Backend Developer Intern",
+      org: "Kartsho Solutiona Pvt. Ltd.",
+      period: "June'26 – present",
+      type: "work",
+      // desc: ".",
     },
+    // {
+    //   title: "Open Source Contributor",
+    //   org: "GitHub Projects",
+    //   period: "2023 – Present",
+    //   type: "oss",
+    //   desc: "Contributed to 3+ open source projects — bug fixes, feature additions, documentation improvements.",
+    // },
   ],
 };

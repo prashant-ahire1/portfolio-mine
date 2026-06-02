@@ -25,7 +25,7 @@ export default function Contact() {
           <span className="neon-text">Future Together</span>
         </h2>
         <p style={{ color: "rgba(232,234,240,0.4)", fontSize: 15, lineHeight: 1.8, marginBottom: 52, maxWidth: 480, margin: "0 auto 52px" }}>
-          Open to internships, collaborations & freelance projects. If you have an idea or opportunity — let's talk.
+          Open to work, collaborations & freelance projects. If you have an idea or opportunity — let's talk.
         </p>
 
         {/* Email card */}

@@ -6,7 +6,7 @@ export default function Footer() {
       <p style={{ color: "rgba(232,234,240,0.18)", fontSize: 12, letterSpacing: "0.06em" }}>
         Designed & built by{" "}
         <span style={{ color: "var(--neon)", fontWeight: 600 }}>{DATA.name}</span>
-        {" "}· {new Date().getFullYear()} · React + Three.js + GSAP
+        {" "}· {new Date().getFullYear()} 
       </p>
     </footer>
   );

@@ -36,7 +36,7 @@ export default function About() {
             <div style={{ fontSize: 32, marginBottom: 16 }}>⚡</div>
             <p style={{ color: "rgba(232,234,240,0.55)", fontSize: 15, lineHeight: 1.9, marginBottom: 24 }}>{DATA.about}</p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-              {[`📍 ${DATA.location}`, `🎓 ${DATA.degree}`, `🏛 ${DATA.college}`, "💼 Seeking Internship"].map(item => (
+              {[`📍 ${DATA.location}`, `🎓 ${DATA.degree}`, `🏛 ${DATA.college}`, "💼 Open to Work"].map(item => (
                 <span key={item} style={{ background: "rgba(0,255,240,0.06)", border: "1px solid rgba(0,255,240,0.12)", color: "rgba(232,234,240,0.5)", fontSize: 12, padding: "5px 14px", borderRadius: 100 }}>{item}</span>
               ))}
             </div>
